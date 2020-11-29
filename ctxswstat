@@ -125,7 +125,7 @@ class CtxSwStat():
             self.prev_ctxsw_cnt[i] = self.cur_ctxsw_cnt[i]
 
     def __print_header(self):
-        print("average time of context switch [unit:nsec]")
+        print("time of context switch [unit:nsec]")
         header = "count      "
         if self.cpu_count >= 100:
             cpu_pattern = "cpu{:<3d}     "
